@@ -2,7 +2,9 @@ let userRole = 'admin';
 let accessLevel;
 let isLoggedIn = true;
 let userMessage;
-
+let isAuthenticated = true;
+let authenticationStatus = isAuthenticated ? 'Authenticated' :'not authentecated';
+console.log('auth stat:', authenticationStatus);
 
 if (userRole === 'admin') {
     accessLevel = 'Full access granted';
