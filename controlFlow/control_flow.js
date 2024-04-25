@@ -26,7 +26,7 @@ if (isLoggedIn) {
 
 console.log('users message:', userMessage);
 
-let userType = 'subscriber';
+let userType = 'subscriber';;
 let userCategory;
 
 switch (userType) {
